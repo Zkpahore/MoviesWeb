@@ -25,10 +25,10 @@ function ProductDetails({ products }) {
           </div>
 
           {/* Movie Info Section */}
-          <div className="p-6 sm:p-8 sm:w-1/2 flex flex-col justify-between">
+          <div className="p-6 sm:p-8 sm:w-1/2 flex flex-col justify-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-                {product.name} <span className="text-indigo-600">({product.price})</span>
+                {product.name} <span className="text-indigo-600">({product.year})</span>
               </h2>
               <p className="text-gray-600 text-sm sm:text-base mb-6 leading-relaxed">
                 {product.description || 'No description available.'}
